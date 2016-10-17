@@ -1,0 +1,37 @@
+t bat
+
+real    42m56.748s
+user    1m55.176s
+sys     0m6.900s
+
+real    42m56.748s
+user    1m55.176s
+sys     0m6.900s
+
+real    41m12.868s
+user    1m56.169s
+sys     0m6.886s
+
+real    44m32.617s
+user    1m50.784s
+sys     0m6.948s
+
+real    46m16.122s
+user    1m49.984s
+sys     0m6.988s
+
+
+bat 
+
+real    111m8.543s
+user    4m12.284s
+sys     0m14.416s
+
+real    121m8.793s
+user    4m26.726s
+sys     0m14.816s
+
+real    102m8.363s
+user    3m56.996s
+sys     0m14.116s
+
