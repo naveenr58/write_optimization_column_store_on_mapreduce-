@@ -1,9 +1,9 @@
-fs -rm -r -f /user/fyu/column-store-tbat/data/1G/tbat_updated;
-tbat0 = LOAD '/user/fyu/column-store-tbat/data/1G/tbat.txt'  USING PigStorage(',') AS (oid:INT, val:INT);
-update01 = LOAD '/user/fyu/column-store-tbat/data/1G/update0.01.txt' USING PigStorage(',') AS (oid:INT, val:INT);
+fs -rm -r -f /user/nthumma/data/1gb/tbat_updated;
+tbat0 = LOAD '/user/nthumma/data/1gb/tbat_0.1.txt'  USING PigStorage(',') AS (oid:INT, val:INT);
+update01 = LOAD '/user/nthumma/data/1gb/update_0.1.txt' USING PigStorage(',') AS (oid:INT, val:INT);
 
 tbat_updated = UNION tbat0, update01;
-STORE tbat_updated INTO '/user/fyu/column-store-tbat/data/1G/tbat_updated';
+STORE tbat_updated INTO '/user/nthumma/data/1gb/tbat_updated';
 
 
 
